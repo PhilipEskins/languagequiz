@@ -53,7 +53,7 @@ $(document).ready(function() {
     }
 
     if (personality === "Artistic" && experiance === "Yes") {
-      if (development !=="Mobile" && company === "Small" || pace === "Slow") {
+      if (company === "Small" && development !== "Mobile") {
         $("#ruby").show();
         $("#java").hide();
         $("#csharp").hide();
@@ -74,7 +74,7 @@ $(document).ready(function() {
     }
 
     if (personality === "Logical" && experiance === "Yes") {
-      if (company === "Small" || pace === "Fast") {
+      if (company === "Small" && pace === "Fast") {
         $("#php").show();
         $("#java").hide();
         $("#csharp").hide();
@@ -83,7 +83,7 @@ $(document).ready(function() {
         $("#css").hide();
         $("#javascript").hide();
       }
-      else {
+      else if (company === "Large" || change === "Keep") {
         $("#csharp").show();
         $("#java").hide();
         $("#ruby").hide();
