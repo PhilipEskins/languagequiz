@@ -1,16 +1,16 @@
 $(document).ready(function() {
+  $(".answer").click(function() {
+    $(".answer").addClass("test");
+  });
   $("#language").submit(function(event) {
     event.preventDefault();
-
-    $("input.answer").click(function() {
-      $(".answer").addClass(".personality");
-    });
 
     var personality = $("input:radio[name=personality]:checked").val();
     var company = $("input:radio[name=company]:checked").val();
     var development = $("input:radio[name=development]:checked").val();
     var pace = $("input:radio[name=pace]:checked").val();
     var change = $("input:radio[name=change]:checked").val();
+    var drink = $("input:radio[name=drink]:checked").val();
 
     if (personality === "Artistic") {
       if (company === "Small" || pace === "Slow") {
