@@ -1,5 +1,5 @@
 #csharp {
-  display: none;
+  /* display: none; */
 }
 
 #java {
@@ -46,6 +46,24 @@ h2 {
   color: white;
 }
 
-.test {
-  background-color: yellow;
+.picked {
+  background-color: salmon;
+}
+
+.response {
+  background-color: lightblue;
+  border-radius: 9px;
+  border: 1px black solid;
+  margin-top: 50px;
+}
+
+.btn {
+  background-color: lightgreen;
+  border: 1px black solid;
+}
+
+.company {
+  text-align: center;
+  text-decoration: bold;
+  font-size: 20px;
 }

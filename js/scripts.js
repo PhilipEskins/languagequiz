@@ -1,5 +1,5 @@
 $(document).ready(function() {
-  $(".answer").click(function() {
+  $("input[type='radio']").click(function() {
     $(".answer").addClass("test");
   });
   $("#language").submit(function(event) {
@@ -13,7 +13,7 @@ $(document).ready(function() {
     var drink = $("input:radio[name=drink]:checked").val();
 
     if (personality === "Artistic") {
-      if (company === "Small" || pace === "Slow") {
+      if (development !=="Mobile" && company === "Small" || pace === "Slow") {
         $("#ruby").show();
         $("#java").hide();
         $("#csharp").hide();
