@@ -9,51 +9,53 @@
     <title>Language Selector</title>
   </head>
   <body>
-    <div class="row">
-      <div class="col-lg-12">
-        <h1>Language Selector</h1>
-        <p>Take this short quiz to see which programming language you should study first.</p>
-      </div>
-    </div>
-
-    <form id="language">
+    <div class = "container">
       <div class="row">
-        <div class="col-lg-2">
-          <label for="personality">Which best describes you?</label>
-          <input type="radio" name="personality" value="Artistic">Artistic.
-          <input type="radio" name="personality" value="Logical">Logical.
-        </div>
-
-        <div class="col-lg-2">
-          <label for="company">Which company would you rather work for?</label>
-          <input type="radio" name="company" value="Large">Large corporation.
-          <input type="radio" name="company" value="Small">Small business.
-        </div>
-
-        <div class="col-lg-2">
-          <label for="development">Which would you rather work on?</label>
-          <input type="radio" name="development" value="Web">Interactive Websites/Desktop applications.
-          <input type="radio" name="development" value="Mobile">Mobile applications.
-        </div>
-
-        <div class="col-lg-2">
-          <label for="pace">How do you usually work?</label>
-          <input type="radio" name="pace" value="Fast">Fast Paced.
-          <input type="radio" name="pace" value="Slow">Slow and steady.
-        </div>
-
-        <div class="col-lg-2">
-          <label for="change">How well do you accept change?</label>
-          <input type="radio" name="change" value="Fast">I embrace it!
-          <input type="radio" name="change" value="Slow">I like keeping things the way they are.
+        <div class="col-lg-12" id="header">
+          <h1>Language Selector</h1>
+          <p>Take this short quiz to see which programming language you should study first.</p>
         </div>
       </div>
 
-      <div class="row">
-        <div class="col-lg-12">
-          <button type="submit" class="btn">Submit</button>
+      <form id="language">
+        <div class="row">
+          <div class="col-lg-2">
+            <label for="personality" class="questions">Which best describes you?</label>
+            <input type="radio" name="personality" value="Artistic">Artistic.<br>
+            <input type="radio" name="personality" value="Logical">Logical.<br>
+          </div>
+
+          <div class="col-lg-2">
+            <label for="company" class="questions">Which company would you rather work for?</label>
+            <input type="radio" name="company" value="Large">Large corporation.<br>
+            <input type="radio" name="company" value="Small">Small business.<br>
+          </div>
+
+          <div class="col-lg-2">
+            <label for="development" class="questions">Which would you rather work on?</label>
+            <input type="radio" name="development" value="Web">Interactive Websites/Desktop applications.<br>
+            <input type="radio" name="development" value="Mobile">Mobile applications.<br>
+          </div>
+
+          <div class="col-lg-2">
+            <label for="pace" class="questions">How do you usually work?</label>
+            <input type="radio" name="pace" value="Fast">Fast Paced.<br>
+            <input type="radio" name="pace" value="Slow">Slow and steady.<br>
+          </div>
+
+          <div class="col-lg-2">
+            <label for="change" class="questions">How well do you accept change?</label>
+            <input type="radio" name="change" value="Fast">I embrace it!<br>
+            <input type="radio" name="change" value="Slow">I like keeping things the way they are.<br>
+          </div>
         </div>
-      </div>
+
+        <div class="row">
+          <div class="col-lg-12">
+            <button type="submit" class="btn">Submit</button>
+          </div>
+        </div>
+      </form>
 
       <div class="row">
         <div class="col-lg-12" id="csharp">
@@ -91,5 +93,6 @@
           </p>
         </div>
       </div>
+    </div>
   </body>
 </html>
