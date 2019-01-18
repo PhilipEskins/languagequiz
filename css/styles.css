@@ -28,5 +28,20 @@ h2 {
 }
 
 .questions {
+  text-align: left;
+}
+
+.btn {
+  margin: auto;
+  display: block;
   text-align: center;
+}
+.answer {
+  padding: 5px;
+  margin: 5px;
+}
+
+.personality {
+  background-color: black;
+  color: white;
 }

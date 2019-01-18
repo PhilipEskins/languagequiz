@@ -2,6 +2,10 @@ $(document).ready(function() {
   $("#language").submit(function(event) {
     event.preventDefault();
 
+    $("input.answer").click(function() {
+      $(".answer").addClass(".personality");
+    });
+
     var personality = $("input:radio[name=personality]:checked").val();
     var company = $("input:radio[name=company]:checked").val();
     var development = $("input:radio[name=development]:checked").val();
