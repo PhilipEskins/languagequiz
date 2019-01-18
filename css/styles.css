@@ -1,5 +1,5 @@
 #csharp {
-  /* display: none; */
+  display: none;
 }
 
 #java {
@@ -10,7 +10,19 @@
   display: none;
 }
 
-#ruby{
+#ruby {
+  display: none;
+}
+
+#design {
+  display: none;
+}
+
+#css {
+  display: none;
+}
+
+#javascript {
   display: none;
 }
 
@@ -35,6 +47,7 @@ h2 {
   margin: auto;
   display: block;
   text-align: center;
+  margin-top: 20px; 
 }
 .answer {
   padding: 5px;

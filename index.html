@@ -19,6 +19,13 @@
 
       <form id="language">
         <div class="row" id="survey">
+
+          <div class="col-lg-2">
+            <label for="experiance" class="questions">Do you have experiance coding?</label><br>
+            <input type="radio" name="experiance" value="Yes"><span class="answer">A lot</span><br>
+            <input type="radio" name="experiance" value="No"><span class="answer">Not much</span><br>
+          </div>
+
           <div class="col-lg-2">
             <label for="personality" class="questions" id="test">Which best describes you?</label><br>
             <input type="radio" name="personality" value="Artistic"><span class="answer">Artistic</span><br>
@@ -45,14 +52,8 @@
 
           <div class="col-lg-2">
             <label for="change" class="questions">How well do you accept change?</label><br>
-            <input type="radio" name="change" value="Fast"><span class="answer">I embrace it</span><br>
-            <input type="radio" name="change" value="Slow"><span class="answer">I like keeping things the way they are</span><br>
-          </div>
-
-          <div class="col-lg-2">
-            <label for="drink" class="questions">Which would you rather drink?</label><br>
-            <input type="radio" name="drink" value="Coffee"><span class="answer">Coffee</span><br>
-            <input type="radio" name="drink" value="Water"><span class="answer">Water</span><br>
+            <input type="radio" name="change" value="Embrace"><span class="answer">I embrace it</span><br>
+            <input type="radio" name="change" value="Keep"><span class="answer">I like keeping things the way they are</span><br>
           </div>
         </div>
 
@@ -64,6 +65,31 @@
       </form>
 
       <div class="row">
+
+        <div class="col-lg-12 response" id="design">
+          <h2>You should study Web Design first!</h2>
+          <p class="learnmore"><a href="https://www.epicodus.com/design" target="_blank">Click here to learn more!</a> Opens a new window.</p>
+          <p>
+            Websites are created using a markup language called HTML. Web designers build webpages using HTML tags that define the content and metadata of each page. The layout and appearance of the elements within a webpage are typically defined using CSS, or cascading style sheets. Therefore, most websites include a combination of HTML and CSS that defines how each page will appear in a browser.
+          </p>
+        </div>
+
+        <div class="col-lg-12 response" id="css">
+          <h2>You should study CSS first!</h2>
+          <p class="learnmore"><a href="https://www.epicodus.com/css" target="_blank">Click here to learn more!</a> Opens a new window.</p>
+          <p>
+            Stands for "Cascading Style Sheet." Cascading style sheets are used to format the layout of Web pages. They can be used to define text styles, table sizes, and other aspects of Web pages that previously could only be defined in a page's HTML.
+          </p>
+        </div>
+
+        <div class="col-lg-12 response" id="javascript">
+          <h2>You should study JavaScript first!</h2>
+          <p class="learnmore"><a href="https://www.epicodus.com/javascript" target="_blank">Click here to learn more!</a> Opens a new window.</p>
+          <p>
+            JavaScript is a programming language commonly used in web development. It was originally developed by Netscape as a means to add dynamic and interactive elements to websites. While JavaScript is influenced by Java, the syntax is more similar to C and is based on ECMAScript, a scripting language developed by Sun Microsystems.
+          </p>
+        </div>
+
         <div class="col-lg-12 response" id="csharp">
           <h2>You should study C# first!</h2>
           <p class="learnmore"><a href="https://www.epicodus.com/c-sharp" target="_blank">Click here to learn more!</a> Opens a new window.</p>
