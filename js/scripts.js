@@ -23,7 +23,7 @@ $(document).ready(function() {
         $("#ruby").hide();
         $("#javascript").hide();
       }
-      else if (personality === "Logical" && development === "Web"){
+      else if (personality === "Logical" || development === "Web"){
         $("#javascript").show();
         $("#java").hide();
         $("#csharp").hide();

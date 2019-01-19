@@ -52,6 +52,7 @@
 .learnmore a:hover {
   text-decoration: none;
   background-color: #d9b08c;
+  border-radius: 5px;
 }
 
 .questions {
@@ -64,6 +65,7 @@
   text-align: center;
   margin-top: 20px;
 }
+
 .answer {
   padding: 5px;
   margin: 5px;
