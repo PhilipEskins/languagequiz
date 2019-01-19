@@ -92,6 +92,15 @@ $(document).ready(function() {
         $("#css").hide();
         $("#javascript").hide();
       }
+      else {
+        $("#csharp").show();
+        $("#java").hide();
+        $("#ruby").hide();
+        $("#php").hide();
+        $("#design").hide();
+        $("#css").hide();
+        $("#javascript").hide();
+      }
     }
   });
 });
